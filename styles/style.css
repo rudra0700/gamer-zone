@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Work+Sans:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+html {
+  font-size: 10px;
+}
+
+.primary-color {
+  color: #ff42a5;
+}
+
+/* navbar style */
+.nav-container {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.logo-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.logo-container h3 {
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+.logo-container img {
+  margin-right: 2rem;
+}
+.nav-items {
+  width: 50%;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-items a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #3c354f;
+  font-weight: 500;
+}
+.follow-btn {
+  padding: 10px;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+}
+
+/* responsive for small device */
+@media screen and (max-width: 425px) {
+  .nav-container {
+    flex-direction: column;
+  }
+  .nav-items {
+    flex-direction: column;
+  }
+  .nav-items a {
+    margin-top: 3rem;
+  }
+}
