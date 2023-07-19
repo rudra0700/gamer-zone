@@ -221,9 +221,9 @@ html {
   max-width: 1200px;
   margin: 50px auto 100px;
 }
-.platform-title{
-font-size: 48px;
-font-weight: 700;
+.platform-title {
+  font-size: 48px;
+  font-weight: 700;
 }
 .main-img {
   width: 100%;
@@ -292,8 +292,7 @@ font-weight: 700;
 /* footer section */
 
 .footer {
-  border: 2px solid blue;
-  height: 50vh;
+  min-height: 400px;
   background: #0b0223;
   display: flex;
   justify-content: center;
@@ -305,19 +304,39 @@ font-weight: 700;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 .footer-content {
   display: flex;
-  justify-content: space-around;
   font-size: 1.8rem;
   font-weight: 600;
-  /* justify-content: space-around; */
+  gap: 4.5rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 4rem 0;
 }
 .footer-policy {
-  display: flex;
-  justify-content: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+  gap: 1.5rem;
+  margin: 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 .footer-logo h3 {
   font-size: 4.5rem;
   font-weight: 700;
+}
+.footer-icon {
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: space-around;
+}
+.footer-icon button {
+  font-size: 3rem;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.6rem;
+  font-weight: 500;
 }
