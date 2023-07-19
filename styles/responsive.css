@@ -1,0 +1,62 @@
+/* responsive for small device */
+@media screen and (max-width: 425px) {
+  .nav-container {
+    flex-direction: column;
+  }
+  .nav-items {
+    flex-direction: column;
+  }
+  .nav-items a {
+    margin-top: 3rem;
+  }
+
+  /* banner section */
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-text {
+    width: 100%;
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .banner-img {
+    width: 100%;
+  }
+  .banner-title {
+    font-size: 3rem;
+  }
+  .banner-description {
+    font-size: 1.5rem;
+  }
+
+  /* gamer section */
+  .gamer-container {
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+  .gamer-img {
+    width: 100%;
+  }
+  .gamer-text {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* card-section */
+  .cards {
+    grid-template-columns: 1fr;
+	padding: 15px;
+  }
+  .card img {
+	width: 100%;
+  }
+  .card p {
+	margin: 1rem 0;
+  }
+ /* game section */
+ .games {
+  
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+}
