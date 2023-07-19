@@ -45,18 +45,36 @@
   /* card-section */
   .cards {
     grid-template-columns: 1fr;
-	padding: 15px;
+    padding: 15px;
   }
   .card img {
-	width: 100%;
+    width: 100%;
   }
   .card p {
-	margin: 1rem 0;
+    margin: 1rem 0;
   }
- /* game section */
- .games {
-  
-  grid-template-columns: repeat(2, 1fr);
-  
-}
+  /* game section */
+  .games {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* platform section */
+  @media screen and (max-width: 425px) {
+    .platform-container {
+      flex-direction: column;
+    }
+
+    .image-container {
+      width: 100%;
+    }
+
+    .image-container div img {
+      left: 65%;
+    }
+
+    .image-text {
+      width: 100%;
+      text-align: center;
+      margin-top: 50px;
+    }
+  }
 }
