@@ -222,7 +222,7 @@ html {
   margin: 50px auto 100px;
 }
 .platform-title {
-  font-size: 48px;
+  font-size: 4.8rem;
   font-weight: 700;
 }
 .main-img {
@@ -240,7 +240,7 @@ html {
 
 .image-text p {
   color: #534c64;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 400;
 }
 .image-text {
@@ -299,6 +299,7 @@ html {
   align-items: center;
   color: white;
   text-align: center;
+  margin-top: 5rem;
 }
 .footer-logo {
   display: flex;
@@ -316,7 +317,7 @@ html {
 }
 .footer-policy {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 500;
   gap: 1.5rem;
   margin: 3rem 0;
