@@ -54,23 +54,32 @@
     margin: 1rem 0;
   }
   /* game section */
-  .games {
-    grid-template-columns: repeat(2, 1fr);
+  .games-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .game {
+    gap: 10px;
+    padding: 0px 5px;
+  }
+  .game img {
+    width: 23%;
+  }
+  .games-container {
+    padding: 5px;
   }
   /* platform section */
 
   .platform-container {
     flex-direction: column;
   }
-
   .image-container {
     width: 100%;
   }
-
   .image-container div img {
     left: 65%;
   }
-
   .image-text {
     width: 100%;
     text-align: center;
@@ -86,7 +95,6 @@
     gap: 10px;
   }
   .footer-policy {
-    /* flex-direction: column; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
